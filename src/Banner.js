@@ -24,7 +24,7 @@ const Banner = () => {
       >
         {movie?.map((imdb) => {
           return (
-            <Link to={`/movies/${imdb.id}`}>
+            <Link to={`/movie/${imdb.id}`}>
               <div key={imdb.id}>
                 <div className=''>
                   <img className='h-[40vh] '
