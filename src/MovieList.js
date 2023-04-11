@@ -39,10 +39,7 @@ const MovieList = () => {
                 console.log(respons.data.results)
             })
     }, [types, pageno])
-    const search = (e) => {
-
-        console.log(e.target.value)
-    }
+    
     return (
         <>
             <div className='md:px-4 px-2 '>

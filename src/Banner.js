@@ -24,8 +24,8 @@ const Banner = () => {
       >
         {movie?.map((imdb) => {
           return (
-            <Link to={`/movie/${imdb.id}`}>
-              <div key={imdb.id}>
+            <Link to={`/movie/${imdb.id}`} key={imdb.id}>
+              <div>
                 <div className=''>
                   <img className='h-[40vh] '
                     src={`https://image.tmdb.org/t/p/original/${imdb.backdrop_path}`}
